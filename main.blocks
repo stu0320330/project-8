@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Y}aiHw5I2d%vF4u;7%I2">Lights on</variable></variables><block type="input_on_sound" id="!%c13fEXJJX+G{R~IT2%" x="0" y="0"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="SE}hM]gO}SF;EDvoO6*z"><field name="VAR" id="Y}aiHw5I2d%vF4u;7%I2">Lights on</field><value name="VALUE"><shadow type="math_number" id=")[5umul~nP$(o]|oh.{n"><field name="NUM">1</field></shadow></value><next><block type="controls_if" id="1FEjY7vKfUw*=c_=!CGE"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="4?KWeY=ZtT#w~%WOC[f|"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="gT^*S1~HI#JQ4%T2x%yA"><field name="VAR" id="Y}aiHw5I2d%vF4u;7%I2">Lights on</field></block></value><value name="B"><shadow type="math_number" id="VRf;(ArTt|$Au*poz6Zq"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="=Qoi:+H%[rET8)2tvxsV"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
